@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const pythonText = document.querySelector('.maine h6');
     if (pythonText) {
-        const text = "PYTHON DEVELOPER";
+        const text = "DATA ANALYST";
         let charIndex = 0;
         function typeEffect() {
             pythonText.textContent = text.substring(0, charIndex);
