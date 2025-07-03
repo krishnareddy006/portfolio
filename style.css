@@ -204,6 +204,54 @@ main {
 
 /* Component: About Section */
 .about {
+  padding: 60px 0;
+  background-color: #E8ECE6;
+}
+
+.about-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #A0340A;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.about-image {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.about img {
+  max-width: 100%;
+  border-radius: 25px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  display: block;
+  margin: 0 auto;
+}
+
+.about img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 50px 100px rgba(0, 0, 0, 0.3);
+}
+
+.about-text {
+  font-size: 1.4rem;
+  line-height: 2.2;
+  color: #444;
+}
+
+/* Responsive Fixes */
+@media (max-width: 991px) {
+  .about-image {
+    margin-bottom: 30px;
+  }
+}
+
+
+/* Component: About Section */
+/* .about {
     padding: 60px 0;
     background-color: #E8ECE6;
     display: flex;
@@ -215,7 +263,7 @@ main {
 }
 
 /* About Content */
-.about-content {
+/* .about-content {
     flex: 1;
     max-width: 45%;
 }
@@ -233,28 +281,28 @@ main {
     font-size: 1.6rem;
     line-height: 2.2;
     color: #444;
-}
+} */
 
 /* Bigger Image */
-.about img {
-    max-width: 100%;  /* Increased size */
+/* .about img {
+    max-width: 100%;  /* Increased size 
     border-radius: 25px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
     position: relative;
     z-index: 1;
-}
+} */
 
 
 /* Enhanced Hover Effect */
-.about img:hover {
-    transform: scale(1.5) translateY(-15px); /* Enlarges and moves forward */
-    box-shadow: 0 50px 100px rgba(0, 0, 0, 0.5); /* Deeper shadow */
-    z-index: 100; /* Brings image to the front */
-}
+/* .about img:hover {
+    transform: scale(1.5) translateY(-15px); /* Enlarges and moves forward 
+    box-shadow: 0 50px 100px rgba(0, 0, 0, 0.5); /* Deeper shadow 
+    z-index: 100; /* Brings image to the front 
+} */
 
 /* Responsive About Section */
-@media (max-width: 768px) {
+*/* @media (max-width: 768px) { 
     .about {
         flex-direction: column;
         text-align: center;
@@ -278,8 +326,7 @@ main {
     .about img {
         max-width: 100%;
     }
-}
-
+}*/
 /* Component: About Section */
 /* .about { padding: 60px 0; background-color: #E8ECE6; }
 .about-title { font-size: 3.5rem; font-weight: 900; color: #A0340A; text-transform: uppercase; text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1); letter-spacing: 2px; }
